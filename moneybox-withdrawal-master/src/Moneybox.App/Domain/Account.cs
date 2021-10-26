@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Moneybox.App
+namespace Moneybox.App.Domain
 {
     public class Account
     {

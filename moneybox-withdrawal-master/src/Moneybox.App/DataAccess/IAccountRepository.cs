@@ -1,4 +1,5 @@
 ﻿using System;
+using Moneybox.App.Domain;
 
 namespace Moneybox.App.DataAccess
 {

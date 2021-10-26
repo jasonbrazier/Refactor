@@ -1,13 +1,14 @@
 ﻿using Moneybox.App.DataAccess;
 using Moneybox.App.Domain.Services;
 using System;
+using Moneybox.App.Domain;
 
 namespace Moneybox.App.Features
 {
     public class TransferMoney
     {
-        private IAccountRepository accountRepository;
-        private INotificationService notificationService;
+        private readonly IAccountRepository accountRepository;
+        private readonly INotificationService notificationService;
 
         public TransferMoney(IAccountRepository accountRepository, INotificationService notificationService)
         {
