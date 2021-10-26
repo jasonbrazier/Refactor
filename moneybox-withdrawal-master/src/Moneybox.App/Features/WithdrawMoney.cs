@@ -23,7 +23,7 @@ namespace Moneybox.App.Features
         /// <param name="amount">Amount to withdraw</param>
         public void Execute(Guid fromAccountId, decimal amount)
         {
-            var from = this.accountRepository.GetAccountById(fromAccountId);
+            var from = accountRepository.GetAccountById(fromAccountId);
 
             // Withdraw funds
             from.Withdraw(amount);
